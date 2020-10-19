@@ -1,0 +1,32 @@
+/*:root {
+  --grid-rows: 1;
+  --grid-cols: 1;
+}*/
+
+body {
+  background-color: red;
+}
+
+/*#container {
+    display: grid;
+    border-color: black;
+    border-style: solid;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    background-color: beige;
+    margin: auto;
+    padding: 2%;
+    position: absolute;
+}*/
+
+#secDiv {
+  background-color: white;
+}
+
+.divvy {
+  padding: 1em;
+  border: 1px solid black;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
